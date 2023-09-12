@@ -602,6 +602,8 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <!-- MODAL FORM -->
         <p class="contacts-form-desc">
           Leave your contacts and we will call you back
         </p>
@@ -688,7 +690,7 @@
           </div>
           <div class="contacts-form-checkbox-wrapper">
             <input
-              class="contacts-form-checkbox"
+              class="contacts-form-checkbox visually-hidden"
               type="checkbox"
               id="user-privacy"
               name="user_privacy"
@@ -707,7 +709,11 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a class="contacts-form-privacy-link" href="">Privacy Policy</a>
+              <a class="contacts-form-privacy-link link" href="#"
+                ><span class="contacts-form-privacy-link-text"
+                  >Privacy Policy</span
+                ></a
+              >
             </label>
           </div>
           <button class="contacts-form-submit" type="submit">Send</button>

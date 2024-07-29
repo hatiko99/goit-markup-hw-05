@@ -583,6 +583,10 @@ img {
 
 /* MODAL FORM */
 
+.modal-form-wrapper {
+  margin-bottom: 8px;
+}
+
 .modal-form-label {
   margin-bottom: 4px;
   display: block;
@@ -593,7 +597,7 @@ img {
   color: #8e8f99;
 }
 
-.modal-form-wrapper {
+.modal-form-field {
   position: relative;
   margin-bottom: 8px;
 }

@@ -565,15 +565,15 @@ img {
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
-  border: 0;
+  border: none;
 }
 
 .modal-button:hover > .modal-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-button:focus > .modal-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-icon {
